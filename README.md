@@ -1,12 +1,12 @@
-# EXP-01-ALP-FOR-8086
+# EXPERIMENT--01-ALP-FOR-8086
 
 ```
 Name : Soundariyan M N
+
 Roll no : 212222230146
-Date of experiment : 11/03/2025
+
+Date of experiment : 11.03.2025
 ```
-
-
 
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
@@ -18,7 +18,6 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
  ## Running the Emulator :
 1.	Download and install emu8086 (www.emu8086.com) It is usually installed in C:\EMU8086 subfolder in the “Windows” directory
 2.	  Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
- 
  
 3.		write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
 
@@ -78,92 +77,104 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 ## Programs for arithmetic  operations
-## 16-bit ALP
 
-## Addition of 16 bit ALP
+## Addition  of 8 bit ALP 
+
 ```
-mov ax,60h
-mov bx,20h
-add ax,bx
-hlt
+MOV AL, 53H;
+MOV BL, 24H;
+ADD AL,BL;
+HLT
 ```
+
+## Output  
+
+ ![image](https://github.com/user-attachments/assets/9c1fd3e5-5bcd-41b2-8657-b20162956f59)
+
+## Subtraction   of 8 bit numbers  ALP 
+
+```
+MOV AL, 53H;
+MOV BL, 24H;
+SUB AL,BL;
+HLT
+```
+## Output  
+
+![image](https://github.com/user-attachments/assets/c10b9a98-3374-488c-a696-1f1e0f29c962)
+
+## Multiplication alp 
+
+```
+MOV AL, 53H;
+MOV BL, 24H;
+MUL BL;
+HLT
+```
+
+ ## Output  
+
+![image](https://github.com/user-attachments/assets/4bad67b1-5f83-4128-bf46-b03ace8ced30)
+
+## Division alp 
+```
+MOV AL, 53H
+MOV BL, 24H
+DIV BL
+HLT
+```
+
+## Output  
+
+![image](https://github.com/user-attachments/assets/dbb08bcd-2434-4f67-99c0-761864b7d7a9)
+
+## Programs for logical operations
+## AND 
+```
+MOV AL, 53H
+MOV BL, 24H
+AND AL,BL
+HLT
+```
+
 ## Output
-![Screenshot 2025-03-07 133008](https://github.com/user-attachments/assets/3ee3d855-0a30-4560-9158-2d80fa2dd292)
+![image](https://github.com/user-attachments/assets/d575fde3-ff46-47a0-96cd-b62efbc333db)
 
-## Subtraction of 16 bit ALP:
+## OR 
 ```
-mov ax,1234h
-mov bx,5678h
-sub ax,bx
-hlt
+MOV AL, 53H
+MOV BL, 24H
+OR AL,BL
+HLT
 ```
+
 ## Output
-![Screenshot 2025-03-07 133313](https://github.com/user-attachments/assets/4aee982c-013b-4aa5-9448-64ffe657de2e)
+![image](https://github.com/user-attachments/assets/878ed738-7855-4d65-a05c-033532f2d61b)
 
-## Multiplication of 16 bit ALP
+## NOT 
 ```
-mov ax,1234h
-mov bx,5678h
-mul ax
-hlt
+MOV AL, 53H
+MOV BL, 24H
+NOT AL
+HLT
 ```
+
 ## Output
-![Screenshot 2025-03-07 133336](https://github.com/user-attachments/assets/c40897a6-834f-455c-bd25-248f9c5fe2eb)
+![image](https://github.com/user-attachments/assets/35ef25a1-ded8-4ee9-ab90-20aed50bb484)
 
+## Ex-OR 
+```
+MOV AL, 53H
+MOV BL, 24H
+XOR AL,BL
+HLT
+```
 
-## Division of 16 bit ALP
-```
-mov ax,1234h
-mov bx,5678h
-div ax
-hlt
-```
 ## Output
-![Screenshot 2025-03-07 133400](https://github.com/user-attachments/assets/b127e5c8-6118-493c-88f6-ece8d69ed7a7)
-
-
-## AND operation of 16 bit ALP
-```
-mov ax,1234h
-mov bx,5678h
-and ax,bx
-hlt
-```
-## Output
-![Screenshot 2025-03-07 133421](https://github.com/user-attachments/assets/7d8cc86b-aff4-4e25-9859-eabeaae15743)
-
-## OR operation of 16 bit ALP
-```
-mov ax,1234h
-mov bx,5678h
-or ax,bx
-hlt
-```
-## Output
-![Screenshot 2025-03-07 133441](https://github.com/user-attachments/assets/71bfff04-85b3-4a64-99ef-54abbd7ec6cd)
-
-## NOT operation of 16 bit ALP
-```
-mov ax,1234h
-not ax
-hlt
-```
-## Output
-![Screenshot 2025-03-07 133541](https://github.com/user-attachments/assets/9c1a1d8a-9024-40ec-aae1-010af7b87a03)
-
-## XOR operation of 16 bit ALP
-```
-mov ax,1234h
-mov bx,5678h
-xor ax,bx
-hlt
-```
-## Output
-![Screenshot 2025-03-07 133504](https://github.com/user-attachments/assets/fc6e56e0-4750-47b7-898a-e6ec09080df8)
-
+![image](https://github.com/user-attachments/assets/ec0b0798-fb26-48bd-9a64-6ac5452b8491)
 
 ## Result :
- Thus the execution of ALP on fundamental arithmetic and logical operation has been performed successfully.
+ Thus, ALP for fundamental arithmetic and logical operations are executed successfully.
 
 
 
