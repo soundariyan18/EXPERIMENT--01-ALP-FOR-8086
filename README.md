@@ -82,8 +82,8 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Addition of 16 bit ALP
 ```
-mov ax,1234h
-mov bx,5678h
+mov ax,60h
+mov bx,20h
 add ax,bx
 hlt
 ```
