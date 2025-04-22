@@ -1,10 +1,8 @@
-# EXPERIMENT--01-ALP-FOR-8086
+# EXPERIMENT 01  ALP OR 8086
 
 ```
 Name : Soundariyan M N
-
 Roll no : 212222230146
-
 Date of experiment : 11.03.2025
 ```
 
